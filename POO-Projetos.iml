@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Projeto03-EscolaManager/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Projeto04-FilmManager/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Projeto05-GestaoEscolar/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
