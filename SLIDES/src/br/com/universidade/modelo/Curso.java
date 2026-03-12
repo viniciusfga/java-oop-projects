@@ -1,7 +1,4 @@
-package EscolaNoList;
-
-import java.util.ArrayList;
-import java.util.List;
+package br.com.universidade.modelo;
 
 public class Curso {
 

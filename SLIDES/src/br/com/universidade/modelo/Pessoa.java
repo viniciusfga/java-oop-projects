@@ -1,4 +1,4 @@
-package EscolaNoList;
+package br.com.universidade.modelo;
 
 abstract class Pessoa {
 
@@ -12,6 +12,10 @@ abstract class Pessoa {
         this.nome = nome;
         this.telefone = telefone;
         this.email = email;
+    }
+
+    public Pessoa() {
+
     }
 
     public Integer getId() {

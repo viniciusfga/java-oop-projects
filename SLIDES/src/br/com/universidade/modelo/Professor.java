@@ -1,11 +1,12 @@
-package EscolaNoList;
-
-import java.util.ArrayList;
-import java.util.List;
+package br.com.universidade.modelo;
 
 public class Professor extends Pessoa {
 
     private String matricula;
+
+    public Professor() {
+        super();
+    }
 
     public Professor(Integer id, String nome, String telefone, String email, String matricula) {
         super(id, nome, telefone, email);

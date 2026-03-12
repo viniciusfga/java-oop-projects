@@ -1,4 +1,4 @@
-package Escola;
+package Escola_v2;
 
 public class Disciplina {
     private int idDisciplina;

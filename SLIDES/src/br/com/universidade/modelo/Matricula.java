@@ -1,4 +1,4 @@
-package EscolaNoList;
+package br.com.universidade.modelo;
 
 import java.util.Date;
 
