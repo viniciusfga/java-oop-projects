@@ -1,28 +1,27 @@
-package br.com.universidade.modelo;
-
 abstract class Pessoa {
 
-    private Integer id;
+    private int id;
     private String nome;
+    private String cpf;
     private String telefone;
     private String email;
 
-    public Pessoa(Integer id, String nome, String telefone, String email) {
+    public Pessoa() {
+    }
+
+    public Pessoa(int id, String nome, String cpf, String telefone, String email) {
         this.id = id;
         this.nome = nome;
+        this.cpf = cpf;
         this.telefone = telefone;
         this.email = email;
     }
 
-    public Pessoa() {
-
-    }
-
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -32,6 +31,14 @@ abstract class Pessoa {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 
     public String getTelefone() {
@@ -47,6 +54,11 @@ abstract class Pessoa {
     }
 
     public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void atualizarContato(String telefone, String email) {
+        this.telefone = telefone;
         this.email = email;
     }
 }
