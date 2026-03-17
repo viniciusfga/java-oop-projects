@@ -1,3 +1,7 @@
+package br.com.hospital.model.pessoa;
+
+import br.com.hospital.model.hospital.Hospital;
+
 public class Funcionario extends Pessoa {
 
     private String matricula;

@@ -1,3 +1,5 @@
+package br.com.hospital.model.pessoa;
+
 public class Enfermeiro extends Funcionario {
 
     public String coren;

@@ -1,3 +1,5 @@
+package br.com.hospital.model.pessoa;
+
 public class Medico extends Funcionario{
 
     private String crm;

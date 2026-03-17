@@ -1,3 +1,7 @@
+package br.com.hospital.model.hospital;
+
+import br.com.hospital.model.pessoa.Funcionario;
+
 import java.util.List;
 
 public class Hospital {
@@ -17,7 +21,7 @@ public class Hospital {
     }
 
     public void admitirPaciente() {
-        System.out.println("Paciente admitido no hospital " + nome + ".");
+        System.out.println("br.com.hospital.model.pessoa.Paciente admitido no hospital " + nome + ".");
     }
 
 }

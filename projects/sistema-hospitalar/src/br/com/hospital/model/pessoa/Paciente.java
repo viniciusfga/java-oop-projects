@@ -1,3 +1,5 @@
+package br.com.hospital.model.pessoa;
+
 public class Paciente extends Pessoa{
     public String numeroProntuario;
     public String tipoSanguineo;

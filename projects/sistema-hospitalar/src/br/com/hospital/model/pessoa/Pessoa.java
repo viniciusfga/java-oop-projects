@@ -1,3 +1,5 @@
+package br.com.hospital.model.pessoa;
+
 abstract class Pessoa {
 
     private int id;
